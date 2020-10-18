@@ -7,6 +7,3 @@ const main = ()=>{
 }
 
 main()
-
-
-
