@@ -13,7 +13,7 @@ const getUsefulInformation = (res)=>{
             const selectFields = dataObj.drinks.map(item => {
                 return {'strDrink': item['strDrink'], 'strInstructions': item['strInstructions']}
             })
-            selectFields.map(saveToDb)
+            saveToDb(selectFields)
         }
     })
 }
